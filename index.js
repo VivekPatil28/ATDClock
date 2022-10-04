@@ -438,11 +438,11 @@ function setdigit() {
         let hrs = date.getHours();
         let min = date.getMinutes();
 
-        //* Uncomment If you want to make the Clock 12 Hrs
+        //* comment If you want to make 24 Hrs Clock
 
-        // if (hrs > 13) {
-        //     hrs = hrs % 12;
-        // }
+        if (hrs > 13) {
+            hrs = hrs % 12;
+        }
 
         let hrs_first_digit = Math.floor(hrs / 10);
         let hrs_second_digit = Math.floor(hrs % 10);
