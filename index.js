@@ -458,14 +458,14 @@ function setdigit() {
 }
 
 
-// function removered() {
-//     const allredborder=document.querySelectorAll('.arrow');
+function removered() {
+    const allredborder=document.querySelectorAll('.arrow');
     
-//     allredborder.forEach(element => {
-//         let degree=getComputedStyle(element)
-//         let s=degree.getPropertyValue("transform")
-//         console.log(s);
-//     });
+    allredborder.forEach(element => {
+        let degree=getComputedStyle(element)
+        let s=degree.getPropertyValue("transform")
+        console.log(s);
+    });
 
-// }
-// removered()
+}
+removered()
